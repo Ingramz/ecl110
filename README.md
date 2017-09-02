@@ -120,10 +120,10 @@ Communication is done using MODBUS RTU. The following values have been gathered 
 |  ??? | R? | 11190 | N/A | Application 116 only. |
 |  Daylight (daylight saving time changeover) | RW | 11197 | 7198 | TODO: FORMAT |
 |  ECL address (master / slave address) | RW | 11198 | 7199 | TODO: FORMAT |
-|  ??? | R? | 11200 | N/A | S1 actual readout in 0.1*C, 192*C = not connected |
-|  ??? | R? | 11201 | N/A | S2 actual readout in 0.1*C, 192*C = not connected |
-|  ??? | R? | 11202 | N/A | S3 actual readout in 0.1*C, 192*C = not connected |
-|  ??? | R? | 11203 | N/A | S4 actual readout in 0.1*C, 192*C = not connected |
+|  ??? | R? | 11200 | N/A | S1 actual readout in 0.1°C, 192°C = not connected |
+|  ??? | R? | 11201 | N/A | S2 actual readout in 0.1°C, 192°C = not connected |
+|  ??? | R? | 11202 | N/A | S3 actual readout in 0.1°C, 192°C = not connected |
+|  ??? | R? | 11203 | N/A | S4 actual readout in 0.1°C, 192°C = not connected |
 |  ??? | R? | 11220 | N/A |  |
 |  ??? | R? | 11221 | N/A |  |
 |  ??? | R? | 11222 | N/A |  |
