@@ -136,9 +136,9 @@ Communication is done using MODBUS RTU. The following values have been gathered 
 |  Backlight (display brightness) | RW | 60057 | 8310 | TODO: FORMAT |
 |  Contrast (display contrast) | RW | 60058 | 8311 | TODO: FORMAT |
 |  Hours | RW | 64044 | 1000 | Valid range 0...23 |
-|  Minutes | RW | 64045 |  | Valid range 0...59 |
-|  Day | RW | 64046 |  | Valid range 1...31 depending on month |
-|  Month | RW | 64047 |  | Valid range 1...12, cannot be set if currently set day is greater than number of days in given month |
-|  Year | RW | 64048 |  | Year number since 2000, valid range 1..40 |
+|  Minutes | RW | 64045 | 1000 | Valid range 0...59 |
+|  Day | RW | 64046 | 1000 | Valid range 1...31 depending on month |
+|  Month | RW | 64047 | 1000 | Valid range 1...12, cannot be set if currently set day is greater than number of days in given month |
+|  Year | RW | 64048 | 1000 | Year number since 2000, valid range 1..40 |
 |  ??? | R? | 65534 | N/A |  |
 |  ??? | R? | 65535 | N/A |  |
