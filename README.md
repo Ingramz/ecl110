@@ -77,7 +77,7 @@ Communication is done using MODBUS RTU. The following values have been gathered 
 |   | R? | 4200 | N/A | **Desired Mode (AUTO/COMFORT/SETBACK/STANDBY)** |
 |   | R? | 4210 | N/A | **Actual mode ?** |
 |  ??? | R? | 4614 | N/A |  |
-|  ECA address (choice of room panel / remote control) | RW | 11009 | 7010 | Application 130 only. 0 = OFF, 1 = A, 2 = B |
+|  ECA address (choice of room panel / remote control) | RW | 11009 | 7010 | Application 130 only.<br/>0 = OFF<br/>1 = A<br/>2 = B |
 |  Auto-reduct (setback temp. dependent on outdoor temp.) | RW | 11010 | 5011 | Application 130 only. TODO: FORMAT |
 |  Boost | RW | 11011 | 5012 | Application 130 only. TODO: FORMAT |
 |  Ramp (reference ramping) | RW | 11012 | 5013 | Application 130 only. TODO: FORMAT |
