@@ -10,7 +10,7 @@ Front view of the pinout:
 |-----|----|----|--------------|
 | GND | D- | D+ | +5V DC ?? mA |
 
-The physical connector type is unknown.
+The best fitting known PCB card edge connector is Wieland DST85 / 4. A connector that ships within Europe can be bought from [eBay](https://www.ebay.co.uk/itm/173089634501). It is not known if it is *the* original connector, which should be confirmed by either Danfoss or an user owning an original connector.
 
 For visual diagrams, refer to 087H9216_VIJMC36K_DLG_ECL110_Link_IG.pdf page 3. The connector for the cable can be seen at https://www.youtube.com/watch?v=icmg9PiaHfs
 
@@ -97,8 +97,8 @@ Communication is done using MODBUS RTU. The following values have been gathered 
 |  P1 heat T (heat demand) | RW | 11077 | 7078 | TODO: FORMAT |
 |  Priority (priority for return temp. limitation) | RW | 11084 | 4085 | Application 130 only. TODO: FORMAT |
 |  Standby T (standby temperature) | RW | 11092 | 7093 | TODO: FORMAT |
-|  ??? | R? | 11099 | N/A | Application 130 only. |
-|  Ext. (external override | RW | 11140 | 7141 | TODO: FORMAT |
+|  ??? | R? | 11099 | N/A | Application 130 only. Accumulated Outside Temperature? |
+|  Ext. (external override) | RW | 11140 | 7141 | TODO: FORMAT |
 |  Knee point | RW | 11161 | 7162 | TODO: FORMAT |
 |  ??? | R? | 11173 | N/A | Application 116 only. |
 |  Motor prot. (motor protection) | RW | 11173 | 6174 | Application 130 only. TODO: FORMAT |
