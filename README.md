@@ -6,15 +6,15 @@ The device has a RS-485 transceiver (SN75LBC184P), for which connections are bro
 
 Front view of the pinout:
 
-| 1   | 2  | 3  | 4            |
-|-----|----|----|--------------|
-| GND | D- | D+ | +5V DC ?? mA |
+| 1   | 2      | 3      | 4            |
+|-----|--------|--------|--------------|
+| GND | D- / B | D+ / A | +5V DC ?? mA |
 
-The best fitting known PCB card edge connector is Wieland DST85 / 4. A connector that ships within Europe can be bought from [eBay](https://www.ebay.co.uk/itm/173089634501). It is not known if it is *the* original connector, which should be confirmed by either Danfoss or an user owning an original connector.
+The connector is Wieland DST85 / 4 (Art. No. [25.002.0453.0](https://eshop.wieland-electric.com/products/de/leiterplattendirektsteckklemme-dst85--4/25.002.0453.0?vendorProductId=25.002.0453.0&navigate=0) and [25.003.0453.0](https://eshop.wieland-electric.com/products/de/leiterplattendirektsteckklemme-dst85--4-ob/25.003.0453.0?vendorProductId=25.003.0453.0&navigate=0)). **Connectors that ship within Europe can be bought from user [aviborg](https://github.com/aviborg) on [eBay](https://www.ebay.co.uk/itm/173089634501).** The best image of the connector from Danfoss can be seen from their [Danfoss Link installation video](https://youtu.be/icmg9PiaHfs?t=4).
 
-For visual diagrams, refer to 087H9216_VIJMC36K_DLG_ECL110_Link_IG.pdf page 3. The connector for the cable can be seen at https://www.youtube.com/watch?v=icmg9PiaHfs
+The main microcontroller is Renesas R5F21258SN.
 
-There are also six 0.1" headers on the main PCB that are probably used for servicing the device (flashing firmwares, debugging, ...). The pinout is unknown and probably uninteresting.
+There are also six 0.1" headers on the main PCB that are probably used for servicing the device (flashing firmwares, debugging, ...). The voltages for this interface are 3.3V. 
 
 ## Serial settings
 
