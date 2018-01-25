@@ -21,7 +21,7 @@ There are also six 0.1" headers on the main PCB that are probably used for servi
 * Baud rate: 19200
 * Data bits: 8
 * Parity: Even
-* Stop bits: 2
+* Stop bits: 1
 
 ## Communication
 
