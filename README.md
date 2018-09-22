@@ -14,7 +14,15 @@ The connector is Wieland DST85 / 4 (Art. No. [25.002.0453.0](https://eshop.wiela
 
 The main microcontroller is Renesas R5F21258SN.
 
-There are also six 0.1" headers on the main PCB that are probably used for servicing the device (flashing firmwares, debugging, ...). The voltages for this interface are 3.3V. 
+There are also six 0.1" headers on the main PCB that are probably used for servicing the device (flashing firmwares, debugging, ...). It uses 3.3V logic.
+
+| 2   | 4      | 5      |
+|-----|--------|--------|
+| TXD |    VCC |    GND |
+|-----|--------|--------|
+| RXD | nRESET |   MODE |
+|-----|--------|--------|
+|   1 |      3 |      6 |
 
 ## Serial settings
 
