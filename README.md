@@ -19,9 +19,7 @@ There are also six 0.1" headers on the main PCB that are probably used for servi
 | 2   | 4      | 5      |
 |-----|--------|--------|
 | TXD |    VCC |    GND |
-|-----|--------|--------|
 | RXD | nRESET |   MODE |
-|-----|--------|--------|
 |   1 |      3 |      6 |
 
 ## Serial settings
