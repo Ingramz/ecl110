@@ -80,7 +80,7 @@ Communication is done using MODBUS RTU. The following values have been gathered 
 |   | R? | 4001 | N/A | **Pump on/off** |
 |   | R? | 4100 | N/A | **Valve open?** |
 |   | R? | 4101 | N/A | **Valve shut?** |
-|   | R? | 4200 | N/A | **Desired Mode (AUTO/COMFORT/SETBACK/STANDBY)** |
+|   | RW | 4200 | N/A | **Desired Mode (1=AUTO/2=COMFORT/3=SETBACK/4=STANDBY)** |
 |   | R? | 4210 | N/A | **Actual mode ?** |
 |  ??? | R? | 4614 | N/A |  |
 |  ECA address (choice of room panel / remote control) | RW | 11009 | 7010 | Application 130 only.<br/>0 = OFF<br/>1 = A<br/>2 = B |
