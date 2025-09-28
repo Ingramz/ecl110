@@ -10,7 +10,7 @@ Front view of the pinout:
 |-----|--------|--------|--------------|
 | GND | D- / B | D+ / A | +5V DC ?? mA |
 
-The connector is Wieland DST85 / 4 (Art. No. [25.002.0453.0](https://eshop.wieland-electric.com/products/de/leiterplattendirektsteckklemme-dst85--4/25.002.0453.0?vendorProductId=25.002.0453.0&navigate=0) and [25.003.0453.0](https://eshop.wieland-electric.com/products/de/leiterplattendirektsteckklemme-dst85--4-ob/25.003.0453.0?vendorProductId=25.003.0453.0&navigate=0)). **Connectors that ship within Europe can be bought from user [aviborg](https://github.com/aviborg) on [eBay](https://www.ebay.co.uk/itm/173089634501).** The best image of the connector from Danfoss can be seen from their [Danfoss Link installation video](https://youtu.be/icmg9PiaHfs?t=4).
+The connector is Wieland DST85 / 4 (Art. No. [25.002.0453.0](https://eshop.wieland-electric.com/products/de/leiterplattendirektsteckklemme-dst85--4/25.002.0453.0?vendorProductId=25.002.0453.0&navigate=0) and [25.003.0453.0](https://eshop.wieland-electric.com/products/de/leiterplattendirektsteckklemme-dst85--4-ob/25.003.0453.0?vendorProductId=25.003.0453.0&navigate=0)). The best image of the connector from Danfoss can be seen from their [Danfoss Link installation video](https://youtu.be/icmg9PiaHfs?t=4).
 
 The main microcontroller is Renesas R5F21258SN.
 
@@ -80,7 +80,7 @@ Communication is done using MODBUS RTU. The following values have been gathered 
 |   | R? | 4001 | N/A | **Pump on/off** |
 |   | R? | 4100 | N/A | **Valve open?** |
 |   | R? | 4101 | N/A | **Valve shut?** |
-|   | R? | 4200 | N/A | **Desired Mode (AUTO/COMFORT/SETBACK/STANDBY)** |
+|   | RW | 4200 | N/A | **Desired Mode (1=AUTO/2=COMFORT/3=SETBACK/4=STANDBY)** |
 |   | R? | 4210 | N/A | **Actual mode ?** |
 |  ??? | R? | 4614 | N/A |  |
 |  ECA address (choice of room panel / remote control) | RW | 11009 | 7010 | Application 130 only.<br/>0 = OFF<br/>1 = A<br/>2 = B |
