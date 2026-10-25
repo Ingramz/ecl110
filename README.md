@@ -113,8 +113,8 @@ Communication is done using MODBUS RTU. The following values have been gathered 
 |  Temp. min. (flow temp. limit, min.) | RW | 11176 | 2177 | TODO: FORMAT |
 |  Temp. max. (flow temp. limit, max.) | RW | 11177 | 2178 | TODO: FORMAT |
 |  Cut-out (limit for heating cut-out) | RW | 11178 | 5179 | Application 130 only. TODO: FORMAT |
-|  ??? | R? | 11179 | N/A | Application 130 only. Desired room temperature? |
-|  ??? | R? | 11180 | N/A | Application 130 only. Manual temperature? |
+|  Desired temperature in Comfort mode | RW | 11179 | N/A | Application 130 only. When Comfort mode is selected this value is transferred to 11228. No scaling, temperature in °C |
+|  Desired temperature in Setback mode | RW | 11180 | N/A | Application 130 only. When Setback mode is selected this value is transferred to 11228. No scaling, temperature in °C |
 |  Gain - max. (room temp. limitation, max.) | RW | 11181 | 3182 | Application 130 only. TODO: FORMAT |
 |  Gain - min. (room temp. limitation, min.) | RW | 11182 | 3183 | Application 130 only. TODO: FORMAT |
 |  Xp (proportional band) | RW | 11183 | 6184 | TODO: FORMAT |
@@ -134,7 +134,7 @@ Communication is done using MODBUS RTU. The following values have been gathered 
 |  ??? | R? | 11221 | N/A |  |
 |  ??? | R? | 11222 | N/A |  |
 |  ??? | R? | 11223 | N/A |  |
-|  ??? | R? | 11228 | N/A | Application 130 only. S2 desired readout |
+|  Current desired S2 temperature | R? | 11228 | N/A | Application 130 only. S2 desired readout |
 |  ??? | R? | 11229 | N/A | S3 desired readout |
 |  ??? | R? | 60007 | N/A |  |
 |  ??? | RW | 60020 | N/A |  |
